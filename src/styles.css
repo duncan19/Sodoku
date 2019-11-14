@@ -21,12 +21,18 @@ input {
   background-color: #FFFFFF;
   outline: none;
 }
-input:disabled {
-  background-color: #EEEEEE;
-}
+
 #cell {
 border: 2px solid black}
 
 #winner, #loser {
   display: none;
+}
+
+.g1 {
+  background-color: blue;
+}
+ 
+.g2 {
+  background-color: orange;
 }
